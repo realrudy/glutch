@@ -1,7 +1,10 @@
-body{
-  font-family:HK Grotesk;
+body {
+  font-family: HK Grotesk;
 }
-
+h1 {
+  margin-left: 10%;
+  font-size: 100pt;
+}
 
 /* Import fonts */
 @font-face {
@@ -42,23 +45,22 @@ ul {
   overflow: hidden;
   border: 1px solid #e7e7e7;
   background-color: #25C197;
-  color:white;
-  
+  color: white;
 }
-body{
-margin:0;}
+body {
+  margin: 0;
+}
 li {
   float: left;
 }
 
 li a {
   display: block;
-  font-size:17pt;
+  font-size: 17pt;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
 }
 
 li a:hover:not(.active) {
@@ -66,15 +68,13 @@ li a:hover:not(.active) {
 
 li a.active {
   color: white;
-font-weight: 900;
+  font-weight: 900;
 }
-[href]:hover{
+[href]:hover {
   filter: brightness(85%);
   transition: ease-in-out filter 0.2s;
 }
 
-
-.special:hover{
-  background-color:transparent;
+.special:hover {
+  background-color: transparent;
 }
-
