@@ -41,7 +41,9 @@ ul {
   padding: 0;
   overflow: hidden;
   border: 1px solid #e7e7e7;
-  background-color: #1d40f0;
+  background-color: #25C197;
+  color:white;
+  
 }
 body{
 margin:0;}
@@ -51,7 +53,8 @@ li {
 
 li a {
   display: block;
-  color: #666;
+  font-size:17pt;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -59,10 +62,13 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color:#1d40f0; 
 }
 
 li a.active {
   color: white;
-/*   background-color: #4CAF50; */
+font-weight: 900;
+}
+[href]:hover{
+  filter: brightness(85%);
+  transition: ease-in-out filter 0.2s;
 }
