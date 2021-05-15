@@ -72,3 +72,9 @@ font-weight: 900;
   filter: brightness(85%);
   transition: ease-in-out filter 0.2s;
 }
+
+
+.special:hover{
+  background-color:transparent;
+}
+
