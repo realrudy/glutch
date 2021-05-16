@@ -1,27 +1,19 @@
 body {
   font-family: HK Grotesk;
-    margin: 0;
-  background-color:#2C2F33;
 }
-
 h1 {
   margin-left: 10%;
   font-size: 40pt;
-  color:white;
 }
 p {
   margin-left: 10%;
   font-size: 17pt;
 }
 
+
 tab {
   margin-left: 50%;
-}
 
-label{
-  color: white;
-
-  font-weight:900;
 }
 
 /* Import fonts */
@@ -81,11 +73,13 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1.5pt solid #e7e7e7;
-  background-color: transparent;
-  color:black;
+  border: 1px solid #e7e7e7;
+  background-color: #25C197;
+  color: white;
 }
-
+body {
+  margin: 0;
+}
 li {
   float: left;
 }
@@ -93,7 +87,7 @@ li {
 li a {
   display: block;
   font-size: 17pt;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -103,11 +97,10 @@ li a:hover:not(.active) {
 }
 
 li a.active {
-  color: black;
+  color: white;
   font-weight: 900;
 }
 [href]:hover {
-/*   font-weight:600; */
   filter: brightness(85%);
   transition: ease-in-out filter 0.2s;
 }
@@ -117,48 +110,45 @@ li a.active {
 }
 
 form {
-  background-color: #282424;
+  background-color: transparent;
   border: solid 0.3pt grey;
-  border-radius: 10pt;
+  border-radius: 5px;
   display: grid;
   grid-gap: 1em;
   padding: 1em;
-  width: 50%;
-  /*   length:900pt; */
-  /*   max-width: 40ch; */
+  width:50%;
+/*   length:900pt; */
+/*   max-width: 40ch; */
+  
 }
 
 input {
-  border: 2pt solid #7289DA;
+  border: 1px solid silver;
   display: block;
-  font-size: 15pt;
-  border-radius: 5px;
-background-color:transparent;
+  font-size: 16px;
+    border-radius: 5px;
+
+
   margin-bottom: 10px;
   padding: 5px;
-  color:white;
   width: 90%;
 }
 textarea {
-  border: 2pt solid #7289DA;
+  border: 1px solid silver;
   display: block;
-  font-size: 15pt;
+  font-size: 16px;
   border-radius: 5px;
   margin-bottom: 10px;
-  color:white;
   padding: 5px;
   width: 500pt;
   height: 50pt;
-  background-color:transparent;
-
-
 }
 
-label {
-  font-size: 1.2rem;
+label{
+  font-size:1.2rem
 }
 
-input:read-only {
+input:read-only { 
   filter: brightness(85%);
   transition: ease-in-out filter 0.2s;
 }
