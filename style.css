@@ -10,6 +10,12 @@ p {
   font-size: 17pt;
 }
 
+
+tab {
+  margin-left: 50%;
+
+}
+
 /* Import fonts */
 @font-face {
   font-family: HK Grotesk;
@@ -105,11 +111,14 @@ li a.active {
 
 form {
   background-color: transparent;
-  border: solid 3px gray;
+  border: solid 0.3pt grey;
+  border-radius: 5px;
   display: grid;
   grid-gap: 1em;
   padding: 1em;
-  max-width: 40ch;
+  width:50%;
+/*   length:900pt; */
+/*   max-width: 40ch; */
   
 }
 
@@ -117,7 +126,24 @@ input {
   border: 1px solid silver;
   display: block;
   font-size: 16px;
+    border-radius: 5px;
+
+
   margin-bottom: 10px;
   padding: 5px;
-  width: 100%;
+  width: 90%;
 }
+
+
+input[type="textarea"] {
+  border: 1px solid silver;
+  display: block;
+  font-size: 16px;
+    border-radius: 5px;
+
+
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 90%;
+}
+
