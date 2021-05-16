@@ -133,17 +133,22 @@ input {
   padding: 5px;
   width: 90%;
 }
-
-
-input[type="textarea"] {
+textarea {
   border: 1px solid silver;
   display: block;
   font-size: 16px;
-    border-radius: 5px;
-
-
+  border-radius: 5px;
   margin-bottom: 10px;
   padding: 5px;
-  width: 90%;
+  width: 500pt;
+  height: 50pt;
 }
 
+label{
+  font-size:1.2rem
+}
+
+input:read-only { 
+  filter: brightness(85%);
+  transition: ease-in-out filter 0.2s;
+}

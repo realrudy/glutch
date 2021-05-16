@@ -4,16 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
-<ul>
-  <li><a class="active" href="/">Home</a></li>
-  <li><a href="/deocs">Docs</a></li>
-  <li><a href="/demos">Demos</a></li>
-  <li><a href="/support">Support</a></li>
- 
-</ul>
+    <ul>
+      <li><a class="active" href="/">Home</a></li>
+      <li><a href="/deocs">Docs</a></li>
+      <li><a href="/demos">Demos</a></li>
+      <li><a href="/support">Support</a></li>
+    </ul>
     <title>Hello World!</title>
 
-    
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
 
@@ -21,27 +19,34 @@
     <script src="/script.js" defer></script>
   </head>
   <body>
-
-  <br>
-    <center>
-    
-    
-    <form class="tab" >
-       <label>
+    <br />
+ <h1>
+   Form Demo
+   
+    </h1>
+      <form       style="margin-left: 10%;">
+        <label>
           New Dream
-          <input  name="dream" type="text" maxlength="100" required placeholder="Dreams!">
+          <input
+            name="dream"
+            type="text"
+            maxlength="100"
+            required
+            placeholder="Dreams!"
+                 readonly
+          />
         </label>
-            <label>
+        <label>
           Text Area
-              
+          
         </label>
-      <textarea  name="dream" maxlength="100" required placeholder="Dreams!"> </textarea>
+        <textarea
+            name="dream"
+            type="textarea"
+            maxlength="100"
+            required
+            placeholder="Dreams!"
+                    ></textarea>
       </form>
-    
-    </center>
-    
-    
-    
   </body>
 </html>
-
