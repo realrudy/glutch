@@ -10,7 +10,6 @@ p {
   font-size: 17pt;
 }
 
-
 /* Import fonts */
 @font-face {
   font-family: HK Grotesk;
@@ -27,8 +26,8 @@ p {
 /* Our remix on glitch button */
 .plainbtn {
   font-family: HK Grotesk;
-  padding: 0.75rem 1rem;
-  font-size: 1.4rem;
+  padding: 1rem 1rem;
+  font-size: 1.9rem;
   line-height: 1rem;
   font-weight: 500;
   height: 2.75rem;
@@ -44,12 +43,11 @@ p {
   margin-left: 10%;
 }
 
-
 /* Our remix on glitch button */
 .secondarybtn {
   font-family: HK Grotesk;
-  padding: 0.75rem 1rem;
-  font-size: 1.4rem;
+  padding: 1rem 1rem;
+  font-size: 1.9rem;
   line-height: 1rem;
   font-weight: 500;
   height: 2.75rem;
@@ -103,4 +101,23 @@ li a.active {
 
 .special:hover {
   background-color: transparent;
+}
+
+form {
+  background-color: transparent;
+  border: solid 3px gray;
+  display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+  max-width: 40ch;
+  
+}
+
+input {
+  border: 1px solid silver;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
 }
