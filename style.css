@@ -14,6 +14,11 @@ tab {
   margin-left: 50%;
 }
 
+label{
+  color:#7289DA;
+  font-weight:900;
+}
+
 /* Import fonts */
 @font-face {
   font-family: HK Grotesk;
@@ -109,7 +114,7 @@ li a.active {
 }
 
 form {
-  background-color: transparent;
+  background-color: #282424;
   border: solid 0.3pt grey;
   border-radius: 5px;
   display: grid;
@@ -121,17 +126,17 @@ form {
 }
 
 input {
-  border: 1px solid silver;
+  border: 3px solid #7289DA;
   display: block;
   font-size: 16px;
   border-radius: 5px;
-
+background-color:transparent;
   margin-bottom: 10px;
   padding: 5px;
   width: 90%;
 }
 textarea {
-  border: 1px solid silver;
+  border: 1px solid #7289DA;
   display: block;
   font-size: 16px;
   border-radius: 5px;
@@ -139,6 +144,9 @@ textarea {
   padding: 5px;
   width: 500pt;
   height: 50pt;
+  background-color:transparent;
+
+
 }
 
 label {
