@@ -10,10 +10,8 @@ p {
   font-size: 17pt;
 }
 
-
 tab {
   margin-left: 50%;
-
 }
 
 /* Import fonts */
@@ -73,9 +71,9 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #25C197;
-  color: white;
+  border: 1.5pt solid #e7e7e7;
+  background-color: transparent;
+  color:black;
 }
 body {
   margin: 0;
@@ -87,7 +85,7 @@ li {
 li a {
   display: block;
   font-size: 17pt;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -97,10 +95,11 @@ li a:hover:not(.active) {
 }
 
 li a.active {
-  color: white;
+  color: black;
   font-weight: 900;
 }
 [href]:hover {
+/*   font-weight:600; */
   filter: brightness(85%);
   transition: ease-in-out filter 0.2s;
 }
@@ -116,18 +115,16 @@ form {
   display: grid;
   grid-gap: 1em;
   padding: 1em;
-  width:50%;
-/*   length:900pt; */
-/*   max-width: 40ch; */
-  
+  width: 50%;
+  /*   length:900pt; */
+  /*   max-width: 40ch; */
 }
 
 input {
   border: 1px solid silver;
   display: block;
   font-size: 16px;
-    border-radius: 5px;
-
+  border-radius: 5px;
 
   margin-bottom: 10px;
   padding: 5px;
@@ -144,11 +141,11 @@ textarea {
   height: 50pt;
 }
 
-label{
-  font-size:1.2rem
+label {
+  font-size: 1.2rem;
 }
 
-input:read-only { 
+input:read-only {
   filter: brightness(85%);
   transition: ease-in-out filter 0.2s;
 }
