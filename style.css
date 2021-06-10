@@ -1,13 +1,11 @@
 body {
   font-family: HK Grotesk;
     margin: 0;
-  background-color:#2C2F33;
 }
 
 h1 {
   margin-left: 10%;
   font-size: 40pt;
-  color:white;
 }
 p {
   margin-left: 10%;
@@ -117,7 +115,7 @@ li a.active {
 }
 
 form {
-  background-color: #282424;
+/*   background-color: #282424; */
   border: solid 0.3pt grey;
   border-radius: 10pt;
   display: grid;
@@ -129,23 +127,24 @@ form {
 }
 
 input {
-  border: 2pt solid #7289DA;
+  border: 2pt solid black;
   display: block;
   font-size: 15pt;
-  border-radius: 5px;
+  border-radius: 5pt;
 background-color:transparent;
   margin-bottom: 10px;
   padding: 5px;
-  color:white;
   width: 90%;
 }
 textarea {
-  border: 2pt solid #7289DA;
+    border: 2pt solid black;
+
+
+/*   border: 2pt solid #7289DA; */
   display: block;
   font-size: 15pt;
-  border-radius: 5px;
+  border-radius: 5pt;
   margin-bottom: 10px;
-  color:white;
   padding: 5px;
   width: 500pt;
   height: 50pt;
@@ -154,8 +153,19 @@ textarea {
 
 }
 
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+
+
 label {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  color:black;
 }
 
 input:read-only {
