@@ -173,3 +173,6 @@ input:read-only {
   transition: ease-in-out filter 0.2s;
 }
 
+span{
+  color: #25C197;
+}
