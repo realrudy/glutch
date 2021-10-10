@@ -25,12 +25,30 @@ p {
 tab {
   margin-left: 50%;
 }
+
+
+
 code {
-  background-color:black;
-  filter: brightness(85%);
-  font-family: monospace;
-  font-size: inherit;
-}
+    font-family: Monaco, monospace;
+    font-size: $base-font-size;
+    line-height: 100%;
+    background-color: #eee;
+    padding: 16pt 16pt;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    border-radius: 6pt;
+  }
+
+
+
+pre code {
+    border-radius:3pt;
+    background: none;
+    font-size: $base-font-size * 0.875;
+    line-height: 1em;
+    letter-spacing: normal;
+    word-break: break-all;
+  }
 label {
   color: white;
 
