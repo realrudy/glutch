@@ -1,25 +1,40 @@
 body {
   font-family: HK Grotesk;
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
-  margin-left: 10%;
   font-size: 40pt;
 }
-p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+code {
   margin-left: 10%;
+}
+h2 {
+}
+p {
   font-size: 17pt;
 }
 
 tab {
   margin-left: 50%;
 }
-
-label{
+code {
+  background-color:black;
+  filter: brightness(85%);
+  font-family: monospace;
+  font-size: inherit;
+}
+label {
   color: white;
 
-  font-weight:900;
+  font-weight: 900;
 }
 
 /* Import fonts */
@@ -54,7 +69,9 @@ label{
   white-space: nowrap;
   margin-left: 10%;
 }
-
+hr {
+  width: 80%;
+}
 /* Our remix on glitch button */
 .secondarybtn {
   font-family: HK Grotesk;
@@ -65,7 +82,7 @@ label{
   height: 2.75rem;
   align-items: center;
   cursor: pointer;
-  background: #25C197 ;
+  background: #25C197;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -81,7 +98,7 @@ ul {
   overflow: hidden;
   border: 1.5pt solid #e7e7e7;
   background-color: transparent;
-  color:black;
+  color: black;
 }
 
 li {
@@ -105,7 +122,7 @@ li a.active {
   font-weight: 900;
 }
 [href]:hover {
-/*   font-weight:600; */
+  /*   font-weight:600; */
   filter: brightness(85%);
   transition: ease-in-out filter 0.2s;
 }
@@ -115,7 +132,7 @@ li a.active {
 }
 
 form {
-/*   background-color: #282424; */
+  /*   background-color: #282424; */
   border: solid 0.3pt grey;
   border-radius: 10pt;
   display: grid;
@@ -131,16 +148,15 @@ input {
   display: block;
   font-size: 15pt;
   border-radius: 5pt;
-background-color:transparent;
+  background-color: transparent;
   margin-bottom: 10px;
   padding: 5px;
   width: 90%;
 }
 textarea {
-    border: 2pt solid black;
+  border: 2pt solid black;
 
-
-/*   border: 2pt solid #7289DA; */
+  /*   border: 2pt solid #7289DA; */
   display: block;
   font-size: 15pt;
   border-radius: 5pt;
@@ -148,11 +164,8 @@ textarea {
   padding: 5px;
   width: 500pt;
   height: 50pt;
-  background-color:transparent;
-
-
+  background-color: transparent;
 }
-
 
 pre code {
   background-color: #eee;
@@ -161,11 +174,9 @@ pre code {
   padding: 20px;
 }
 
-
-
 label {
   font-size: 1.5rem;
-  color:black;
+  color: black;
 }
 
 input:read-only {
@@ -173,6 +184,6 @@ input:read-only {
   transition: ease-in-out filter 0.2s;
 }
 
-span{
+span {
   color: #25C197;
 }
