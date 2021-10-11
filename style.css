@@ -130,13 +130,15 @@ li a.active {
 form {
   border: solid 0.3pt grey;
   border-radius: 10pt;
-  background-color:  filter: brightness(85%);
+  
   display: grid;
   grid-gap: 1em;
   padding: 1em;
   width: 50%;
 }
 input {
+    font-family: HK Grotesk;
+
   border: 2pt solid #000;
   display: block;
   font-size: 15pt;

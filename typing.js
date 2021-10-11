@@ -39,11 +39,8 @@ document.addEventListener('DOMContentLoaded',function(event){
     }
   }
   // start the text animation
-  function thing(){
-         setInterval(StartTextAnimation);
-  }
-  
-thing();
+
+  StartTextAnimation(0);
   
 });
 
