@@ -1,6 +1,8 @@
 body {
   font-family: HK Grotesk;
   margin: 0;
+  background-color:#23272A;
+  color:white;
 }
 h1 {
   font-size: 40pt;
@@ -87,7 +89,7 @@ hr {
   height: 2.75rem;
   align-items: center;
   cursor: pointer;
-  background: #25c197;
+  background: #7289DA;
   border: 1px solid #000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -102,7 +104,7 @@ ul {
   padding: 0;
   overflow: hidden;
   border: 1.5pt solid #e7e7e7;
-  background-color: transparent;
+  background-color: #7289DA;
   color: #000;
 }
 li {
